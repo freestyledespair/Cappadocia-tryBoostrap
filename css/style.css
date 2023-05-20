@@ -1,0 +1,404 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+@import url("https://cdn.rawgit.com/mfd/09b70eb47474836f25a21660282ce0fd/raw/e06a670afcb2b861ed2ac4a1ef752d062ef6b46b/Gilroy.css");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+@import url('http://fonts.cdnfonts.com/css/balqis');
+@import url('https://fonts.googleapis.com/css2? family= Raleway:wght@400;500;600;700 & display=swap');
+
+
+header {
+    background: url(../img/Rectangle\ 43.jpg) center / cover no-repeat;
+    width: 100%;
+    height: 120vh;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    /* background-color: darkcyan; */
+
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 46px;
+}
+
+.menu li {
+    list-style-type: none;
+    font-family: 'Roboto Condensed';
+    font-weight: 400;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+}
+
+#marshrut_dlya_podcherkivaniya {
+    text-decoration: underline;
+}
+
+.menu img {
+    margin-left: 500px;
+}
+
+.cappadocia_block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 90px;
+}
+
+.cappadocia_block h1 {
+    font-size: 200px;
+    margin-top: 140px;
+    font-weight: 400;
+    font-family: 'Balqis';
+}
+
+.cappadocia_block p {
+    font-size: 45px;
+    font-family: 'Roboto Condensed';
+    font-style: italic;
+    font-weight: 300;
+    position: absolute;
+    top: 330px;
+    right: 90px;
+    color: #000000;
+}
+
+h2 {
+    margin-top: 150px;
+    font-size: 96px;
+    font-family: 'Balqis';
+    font-weight: 400;
+    color: #E2AB3F;
+}
+
+.fairy_tail_container {
+    position: relative;
+}
+
+.fairy_tail_container p {
+    font-size: 24px;
+    font-weight: 300;
+    font-family: 'Roboto Condensed';
+    font-style: italic;
+    position: absolute;
+    top: 85px;
+    left: 180px;
+    color: #000000;
+}
+
+
+.container_section_two {
+    width: 80%;
+    display: flex;
+    /* border: 2px solid red; */
+    margin-top: 100px;
+}
+
+.textcarousel h5 {
+    margin: 1px 0;
+}
+
+.slider_block {
+    width: 60%;
+    /* border: 1px solid blue; */
+}
+
+.textcarousel {
+    /* border: 3px solid yellow; */
+    padding: 5px 55px;
+    width: 40%;
+}
+
+.textcarousel p {
+    margin: 0;
+    font-size: 18px;
+    line-height: 21px;
+    font-family: 'Roboto Condensed';
+    font-weight: 300;
+}
+
+.textdlyaotstupa {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+
+.container_section_three {
+    width: 80%;
+    margin-left: 20%;
+    display: flex;
+    margin-top: 100px;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+}
+
+.slider_block2 {
+    width: 60%;
+}
+
+.textcarousel2 {
+    width: 40%;
+}
+
+.ourtrip_title {
+    position: relative;
+    margin-bottom: 90px;
+}
+
+.ourtrip_title p {
+    font-size: 24px;
+    font-style: italic;
+    font-family: 'Roboto Condensed';
+    font-weight: 300;
+    position: absolute;
+    left: 240px;
+    top: 90px;
+}
+
+
+.textcarousel2 h2 {
+    margin: 0;
+}
+
+.content_text {
+    font-family: 'Roboto Condensed';
+}
+
+.content_text h5 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.content_text p {
+    font-size: 20px;
+    font-weight: 300;
+    margin: 0;
+}
+
+.content_text button {
+    /* border: 1px solid #E2AB3F; */
+    width: 250px;
+    height: 40px;
+    background-color: white;
+    margin-top: 20px;
+    font-size: 23px;
+    font-weight: 300;
+}
+
+
+
+
+
+.hotel_content_block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* border: 1px solid aqua; */
+}
+
+.one_image_hotel img {
+    width: 430px;
+    height: 610px;
+}
+
+
+.content_block {
+    margin-left: 50px;
+    color: #000000;
+    font-family: 'Roboto Condensed';
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+}
+
+.text_content p {
+    line-height: 21px;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: 'Roboto Condensed';
+}
+
+
+.fourimages_content {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 19px;
+    /* border: 1px solid yellow; */
+}
+
+.fourimages_content img {
+    width: 230px;
+    height: 120px;
+    margin: 10px 15px 10px 0;
+}
+
+
+
+
+.price .container {
+    position: relative;
+}
+
+.title_container {
+    position: relative;
+    margin-bottom: 100px;
+}
+
+.title_container p {
+    font-size: 24px;
+    font-weight: 300;
+    font-family: 'Roboto Condensed';
+    font-style: italic;
+    position: absolute;
+    top: 90px;
+    left: 120px;
+    color: #000000;
+}
+
+.on_off_text {
+    display: flex;
+}
+
+.on_off_text h5 {
+    margin-bottom: 50px;
+}
+
+
+.on_text {
+    width: 50%;
+}
+
+
+.secondimg {
+    position: absolute;
+    right: -150px;
+    top: 80px;
+}
+
+.firstimg {
+    position: absolute;
+    right: 80px;
+    top: 250px;
+}
+
+.thirdimg {
+    position: absolute;
+    right: 20px;
+    top: 400px;
+}
+
+
+
+
+.callback_block {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 200px;
+}
+
+.callback_content {
+    flex-grow: 1;
+}
+
+
+.callback_title {
+    position: relative;
+    margin-bottom: 100px;
+    margin-left: 80px;
+}
+
+.callback_title h2 {
+    margin: 0;
+}
+
+.second_h2_callback {
+    padding-left: 120px;
+}
+
+.callback_title p {
+    font-size: 24px;
+    font-family: 'Roboto Condensed';
+    font-style: italic;
+    font-weight: 300;
+    color: #000000;
+}
+
+.first_p_callback {
+    position: absolute;
+    top: 90px;
+    left: 140px;
+}
+
+.second_p_callback {
+    position: absolute;
+    top: 210px;
+    left: 240px;
+}
+
+
+.block_for_img img {
+    width: 520px;
+    height: 720px;
+}
+
+
+.callback_form p {
+    font-size: 20px;
+    font-weight: 400;
+    color: #000000;
+    text-align: center;
+}
+
+.callback_form input {
+    width: 383px;
+    height: 50px;
+    /* border: 1px solid #E2AB3F; */
+    padding-left: 20px;
+}
+
+.knopka button {
+    width: 280px;
+    height: 50px;
+    /* border: 1px solid #E2AB3F; */
+    background-color: white;
+}
+
+.knopka {
+    display: flex;
+    justify-content: center;
+    font-size: 23px;
+    font-weight: 300;
+    font-family: 'Roboto Condensed';
+}
+
+footer {
+    background: url(../img/Rectangle\ 42.jpg) center / cover no-repeat;
+    margin-top: 200px;
+    height: 120vh;
+}
+
+
+.sharik_footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+    padding-top: 110px;
+}
+
+h3 {
+    font-size: 86px;
+    font-family: 'Balqis';
+    font-weight: 400;
+}
